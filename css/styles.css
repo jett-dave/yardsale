@@ -1,0 +1,47 @@
+.row-fluid {
+	padding-bottom: 10px;
+}
+
+.lightbox-caption h2 {
+	float: left;
+}
+.lightbox-caption h3 {
+	float: right;
+}
+.lightbox-caption p {
+	clear: both;
+	width: 100%;
+	text-align: left;
+}
+.item {
+	position: relative;
+	display: block;
+}
+img.thumbnail {
+	position: relative;
+}
+span.sold {
+	position: absolute;
+	top: 130px;
+	left: -65px;
+	padding: 20px 0;
+	
+	width: 445px;
+	
+	font-weight: bold;
+	font-size: 2.2em;
+	text-align: center;
+	background: #fff;
+	color: #000;
+	
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
